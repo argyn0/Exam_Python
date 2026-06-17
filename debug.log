@@ -1,0 +1,10 @@
+[0617/194407.188:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Не удается найти указанный файл. (0x2)
+[0617/194407.507:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Не удается найти указанный файл. (0x2)
+[0617/194409.805:ERROR:third_party\crashpad\crashpad\client\crashpad_client_win.cc:869] not connected
+[0617/194409.860:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Не удается найти указанный файл. (0x2)
+[0617/194410.791:ERROR:third_party\crashpad\crashpad\client\crashpad_client_win.cc:869] not connected
+[0617/194410.828:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Не удается найти указанный файл. (0x2)
+[0617/194411.589:ERROR:third_party\crashpad\crashpad\client\crashpad_client_win.cc:869] not connected
+[0617/194411.589:ERROR:third_party\crashpad\crashpad\client\crashpad_client_win.cc:869] not connected
+[0617/194411.633:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Не удается найти указанный файл. (0x2)
+[0617/194412.522:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: Не удается найти указанный файл. (0x2)
