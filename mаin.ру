@@ -1,0 +1,58 @@
+player = {
+    "name": "Hero",
+    "hp": 100,
+    "money": 50
+}
+
+import random
+
+def forest(player):
+    event = random.choice(["monster", "treasure", "nothing"])
+    if event == "monster":
+        damage = random.randint(10, 20)
+        player["hp"] -= damage
+        print(f"Монстр! Ты потерял {damage}HP.")
+    elif event == "treasure":
+        gold = random.randint(10, 50)
+        player["money"] += gold
+        print(f"Ты нашел {gold} монет.")
+    else:
+        print("Ничего не произошло.")
+
+    
+def shop(player):
+    print("1. Хлеб (Восстанавливает 20HP) - 20 монет")
+
+    try:
+        choice = int(input("Выбор: "))
+
+        if choice == 1:
+            if player["money"] >= 20:
+                player["money"] -= 20
+                player["hp"] += 20
+            else:
+                print("Не хватает денег!")
+    except:
+        print("Не верный ввод!")
+
+
+def statusPlayer(player):
+    print(f"Имя: {player["name"]}")
+    print(f"HP: {player["hp"]}")
+    print(f"Деньги: {player["money"]}")
+
+while True:
+    print("1. Лес\n" \
+    "2. Магазин\n" \
+    "3. Статус игрока\n" \
+    "0. Выход")
+    choice = input("Выбор: ")
+
+    if choice == "1": 
+        forest(player)
+    elif choice == "2":
+        shop(player)
+    elif choice == "3":
+        statusPlayer(player)
+    elif choice == "0":
+        break
